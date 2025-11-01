@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="author" content="SUPRIYA D">
+  <meta name="description" content="THIS IS A SIMPLE BIODATA WEBSITE.">
+  <meta name="keywords" content="HTML,CSS">
+
+  <title> My BioData</title>
+  <link rel="icon"  href="C:\Users\1204s\Downloads\Bust-In-Silhouette-Flat--Streamline-Fluent-Emoji.png">
+<style>
+    li {
+      font-size: 30px;
+    }
+    th{
+      font-size: 30px;
+    }
+    td{
+      font-size: 30px;
+    }
+    
+  table {
+      background-color: rgb(254, 253, 253);
+      border: 9px solid rgb(18, 17, 17);
+  
+    }
+   
+  </style>
+</head>
+<body>
+  <center>
+<h1 style="font-size:40px;"> My Bio-data </h1>
+  </center>
+<h2 style="font-size: 30px;">
+  Personal Details:
+</h2>
+<ul>
+  <li>Name :Supriya </li><br>
+  <li>Date of Birth :16-10-2007</li><br>
+  <li>Gender :female</li><br>
+  <li>Nationality :Indian</li><br>
+  <li>Languages Known :Telugu,Tamil,English</li><br>
+</ul>
+<h2 style="font-size: 30px;">Contact Details :</h2>
+<ul>
+  <li>Address :No:295/10,Samarapuri Nagar,Puthiamman Kovil Street,Kavaraipettai-601 206</li><br>
+  <li>Email:supriyaraju1610@gmail.com</li><br>
+  
+</ul>
+<h2 style="font-size: 30px;" >Educational Details :</h2>
+<table border="20"width="700">
+    <tr>
+      <th>Class</th>
+      <th>School/College</th>
+      <th>Year of Passing</th>
+      
+    </tr>
+    <tr>
+      <td>X</td>
+      <td>RMKMHSS</td>
+      <td>2023</td>
+      
+</tr>
+    <tr>
+      <td>XII</td>
+      <td>RMKMHSS</td>
+      <td>2025</td>
+      
+    </tr>
+    <tr>
+      <td>B-TECH : ADS </td>
+      <td>Rmk engineering college </td>
+      <td>2029</td>
+      
+    </tr>
+
+</table>
+<h2 style="font-size:30px;">Hobbies :</h2>
+
+<ul>
+  <li>Watching movies</li>
+  <li>Listening to music</li>
+  <li>Spending time with siblings</li>
+  <li>Playing tennis</li>
+</ul>
+</body>
+</html>
