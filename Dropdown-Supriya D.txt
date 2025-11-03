@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.dropbtn {
+  background-color: blue;
+  color: white;
+  padding: 11px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-content {
+  display: none;
+  position:fixed;   
+  background-color: white;
+  min-width: 150px;
+  box-shadow: 0px 8px 16px 0px rgba(75, 43, 141, 0.2);
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 11px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: red;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: green;
+}
+</style>
+</head>
+<body>
+
+<h2>Dropdown Menu</h2>
+<p>Move the mouse over the button to open the dropdown menu.</p>
+
+<div class="dropdown">
+  <button class="dropbtn">Household Items</button>
+  <div class="dropdown-content">
+  <a href="#">Fan</a>
+  <a href="#">Bed</a>
+  <a href="#">Mirror</a>
+  <a href="#">Clock</a>
+  <a href="#">Curtain</a>
+  <a href="#">Window</a>
+  <a href="#">Chair</a>
+  <a href="#">Table</a>
+  <a href="#">Fridge</a>
+  <a href="#">Washing Machine</a>
+  <a href="#">Iron Box</a>
+  <a href="#">Kitchen Utensils</a>
+  </div>
+</div>
+
+</body>
+</html>
+
+
+
